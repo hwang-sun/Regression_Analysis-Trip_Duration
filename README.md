@@ -18,7 +18,10 @@ For data feature explaination, please access `Data/Data_documentation.xlsx`
 ## III. PACE Process for Analysis
 
 
-## IV. Result Summary
+## IV. Analysis Results
+
+
+## V. Summary
 
 The conclusion is performed by taking into consideration of OLS model, T-test, ANOVA, and Tukey's HSD results from the above analysis.
 
