@@ -1,7 +1,7 @@
 # Regression Analysis (Trip Duration)
 
 
-For detailed Analysis : `Trip_Duration_Regression_Analysis.ipynb`
+For detailed analysis : `Trip_Duration_Regression_Analysis.ipynb`
 
 ---
 ## I. Problem Context
