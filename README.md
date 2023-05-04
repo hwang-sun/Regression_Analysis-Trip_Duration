@@ -14,3 +14,5 @@ This project uses a dataset called "2017_Yellow_Taxi_Trip_Data.csv". It contains
 
 The dataset contains 408,294 rows – each row represents a different trip
 For data feature explaination, please access `Data/Data_documentation.xlsx`
+
+## III. PACE process for analysis
