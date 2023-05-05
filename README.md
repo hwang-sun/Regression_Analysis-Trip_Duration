@@ -52,6 +52,14 @@ EXECUTE: present the finding of the analysis
   - Address feedback
 ## IV. Analysis Results
 
+<img src="images/graphs/corr_matrix.png" align=center>
+
+<img src="images/pace/group_dist_violin" align=left>
+
+<img src="images/pace/group_mean_bar" align=left>
+
+<img src="images/pace/group_mean_bar" align=left>
+
 
 ## V. Summary
 
