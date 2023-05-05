@@ -26,6 +26,7 @@ ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
   - Data Cleaning
   - Feature engineering
+  - Data validation
 
 CONSTRUCT: build models to meet the project goal
   - Varaible selection
