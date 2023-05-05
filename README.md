@@ -168,7 +168,6 @@ Since residuals fitted in normal distribution, the normality assumtion is met
 
 Based on the OLS model summary, the 3 categorical variables `mta_tax`, `RatecodeID`, `payment_type` have $\beta$ coefficients with $P-value < 0.05$ which indicates the relationship of these variables with the outcome vairable `trip_duration` is statistically significant. But it can't be sure if there is a significant difference between the various groups in each categorical predictor. This is where ANOVA analysis comes in useful to explore further.
 
----
 **The ANOVA analysis includes 4 steps:**
 
 1. State the null and alternative hypothesis
@@ -176,6 +175,7 @@ Based on the OLS model summary, the 3 categorical variables `mta_tax`, `Ratecode
 3. Find the P-value 
 4. Reject or fail to reject the null hypothesis
 5. Perform post hoc test if the null hypothesis is rejected
+---
 
 One-way ANOVA  for "*RatecodeID*"
 
