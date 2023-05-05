@@ -52,16 +52,16 @@ EXECUTE: present the finding of the analysis
   - Address feedback
 ## IV. Analysis Results
 
-<img src="images/graphs/corr_matrix.png" width="800" height="800" align=center>
+<img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
 
 
-<img src="images/graphs/group_dist_violin.png" width="800" height="800" align=center>
+<img src="images/graphs/group_dist_violin.png" width="800" height="600" align=center>
 
 
-<img src="images/graphs/group_mean_bar.png" width="800" height="800" align=center>
+<img src="images/graphs/group_mean_bar.png" width="800" height="600" align=center>
 
 
-<img src="images/graphs/multilinearity_assump.png" width="800" height="800" align=center>
+<img src="images/graphs/multilinearity_assump.png" width="800" height="600" align=center>
 
 
 ## V. Summary
