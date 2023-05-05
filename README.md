@@ -165,16 +165,52 @@ Since residuals fitted in normal distribution, the normality assumtion is met
 - **Homoscedasticity** : As being presented on the scatter plot between predicted values and residuals, the variance of error is nearly constant across fitted values.
 <img src="images/graphs/RatecodeANOVA.PNG" align=center>
 
+### 7. ANOVA Analysis
 
+Based on the OLS model summary, the 3 categorical variables `mta_tax`, `RatecodeID`, `payment_type` have $\beta$ coefficients with $P-value < 0.05$ which indicates the relationship of these variables with the outcome vairable `trip_duration` is statistically significant. But it can't be sure if there is a significant difference between the various groups in each categorical predictor. This is where ANOVA analysis comes in useful to explore further.
+
+---
+**The ANOVA analysis includes 4 steps:**
+
+1. State the null and alternative hypothesis
+2. Choose a significant level
+3. Find the P-value 
+4. Reject or fail to reject the null hypothesis
+5. Perform post hoc test if the null hypothesis is rejected
+
+One-way ANOVA  for "*RatecodeID*"
+
+- $H_0 : \mu_{(1)} = \mu_{(2)} = \mu_{(3)} = \mu_{(4)} = \mu_{(5)} = \mu_{(6)}$
+
+There is no difference in trip duration based on different RatecodeID
+
+- $H_a$: Not $\mu_{(1)} = \mu_{(2)} = \mu_{(3)} = \mu_{(4)} = \mu_{(5)} = \mu_{(6)}$
+
+There is a difference in trip duration based on different RatecodeID
+
+- PR(>F) = 0.0 indicates the P-value is smaller than 0.000000 which is less than 0.05. As the result, I reject $H_0$ and state that there is a significant difference in trip duration based on different RatecodeID.
+
+- Post-hoc test would need performing to determine how one pair of groups different from each other.
 
 <img src="images/graphs/RatecodeID_TukeyResult.PNG" align=center>
 
+One-way ANOVA  for "*payment_type*"
+
+- $H_0 : \mu_{(1)} = \mu_{(2)} = \mu_{(3)} = \mu_{(4)}$
+
+There is no difference in trip duration based on different payment types
+
+- $H_a$: Not $\mu_{(1)} = \mu_{(2)} = \mu_{(3)} = \mu_{(4)}$
+
+There is a difference in trip duration based on different payment types
 
 <img src="images/graphs/payment_type_ANOVA.PNG" align=center>
 
+- The P-value `PR(>F)` is less than 0.05 => Reject $H_0$ and state that there is a significant difference in trip duration based on different payment types.
+
+- Post-hoc test would need performing to determine how one pair of groups different from each other.
 
 <img src="images/graphs/payment_type_Tukey.PNG" align=center>
-
 
 ## V. Summary
 
