@@ -21,15 +21,18 @@ PLAN : Conceptualize the scope of the project and develop the steps to guide thr
   - What is the project scope?
   - What is stakeholders needs and requirements?
   - Steps for solving the problem?
+
 ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
   - Data Cleaning
   - Feature engineering
+
 CONSTRUCT: build models to meet the project goal
   - Varaible selection
   - Select model approach
   - Build models
   - Model and Assumption Validation
+
 EXECUTE: present the finding of the analysis
   - Result summary
   - Present findings
