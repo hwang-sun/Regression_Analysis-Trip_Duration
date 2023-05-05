@@ -86,9 +86,6 @@ Relationship between continuous variables:
 
 - While `tip_amount` have a moderate relationship with `total_amount`, that of `tolls_amount` is weak and unclear. Hypothesis testing would need to be conducted to further confirm `tolls_amount` and `total_amount` relationships are statistically significant and populationally presentative.
 
-
-### 3. Bulding Linear Regression Model using OLS Method
-
 Based on above analysis, variables violate no-multicollinearity assumption (no two independent variables can be highly correlated with each other) are:
 
 -  `trip_distance` have strong relationship with `total_amount` (correlation score = 0.92)
@@ -98,6 +95,24 @@ Continuous variables are selected for multi linear model are:
 - `total_amount`
 - `tip_amount`
 - `tolls_amount`
+
+### 3. Bulding Linear Regression Model using OLS Method
+
+**What variables were selected and why?**
+
+The variables were selected for modeling after considering 2 assumptions 
+- Linearity: Each predictor (Xi) is linearly related to the outcome variable (Y)
+- No multicollinearity: no two independent variables $(X_i, X_j)$ can be highly correlated with each other.
+   - `mta_tax`
+   - `RatecodeID`
+   - `payment_type`
+   - `total_amount`
+   - `tip_amount`
+   - `tolls_amount`
+   
+Other assumptions will be validated after the model is built:
+- Normality : the errors/residuals ($y-\hat{y}$) are normally distributed
+- Homoscedasticity : the variance of the error is constant or similar across the model.
 
 <img src="images/graphs/OLS_result.PNG" align=center>
 
