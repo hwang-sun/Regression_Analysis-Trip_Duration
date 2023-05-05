@@ -16,7 +16,7 @@ The dataset contains 408,294 rows – each row represents a different trip
 For data feature explaination, please access `Data/Data_documentation.xlsx`
 
 ## III. PACE Workflow for Analysis
-PLAN : Conceptualize the scope of the project and develop the steps to guide through the process of completing the project
+PLAN : conceptualize the scope of the project and develop the steps to guide through the process of completing the project
   - What is the main goal of this project?
   - What is the project scope?
   - What is stakeholders needs and requirements?
