@@ -24,15 +24,15 @@ PLAN : Conceptualize the scope of the project and develop the steps to guide thr
 
 ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
-  - Data Cleaning
+  - Data cleaning
   - Feature engineering
   - Data validation
 
 CONSTRUCT: build models to meet the project goal
   - Varaible selection
   - Select model approach
-  - Build models
-  - Model and Assumption Validation
+  - Build model
+  - Model and assumption Validation
 
 EXECUTE: present the finding of the analysis
   - Result summary
