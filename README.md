@@ -54,6 +54,7 @@ EXECUTE: present the finding of the analysis
 #### Identify correlation between independent variables and dependent vairiable
 
 <img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
+
 Based on the correlation matrix, independent variables meet the linearity assumption (correlation with trip duration >= 0.4) are:
 
 - `total_amount` (highest correlation score: 0.9)
