@@ -18,6 +18,7 @@ For data feature explaination, please access `Data/Data_documentation.xlsx`
 ## III. PACE Workflow for Analysis
 PLAN : conceptualize the scope of the project and develop the steps to guide through the process of completing the project
   - What is the main goal of this project?
+    *Perform regression analysis to determine what affects ride durations based on a variety of variables*
   - What is the project scope?
   - What is stakeholders needs and requirements?
   - Steps for solving the problem?
