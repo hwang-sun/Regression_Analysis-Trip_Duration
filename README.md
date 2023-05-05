@@ -144,14 +144,27 @@ Other assumptions will be validated after the model is built:
 
 - The 95% confidence intervals for each coefficient should be included when presenting results to stakeholders. For instance, there's 95% chance the interval $[2.110,  5.349]$ contains the true parameter of the model intercept.
 
+### 4. Checking for Normality assumption
 
 <img src="images/graphs/resid_dist.png" width="800" height="400" align=center>
 
+Since residuals fitted in normal distribution, the normality assumtion is met
+
+### 5. Checking for Homoscedasticity assumption
 
 <img src="images/graphs/homoscedasticity_assump.png" width="800" height="500" align=center>
 
+### 6. Assumption Conclusion
 
+- **Linearity** : independent vairables selected for linear model is carefully accessed by correlated score and graphs which assures the predictors have good relationship with outcome variable.
+
+- **Normality** : the model residuals are normally distributed indicating this assumption is met.
+
+- **Independent Observations** : this assumption requires understanding of data sources and data collecting process. By default, there's not reason to beleive each trip (observation) in the data set is dependent to each other.
+
+- **Homoscedasticity** : As being presented on the scatter plot between predicted values and residuals, the variance of error is nearly constant across fitted values.
 <img src="images/graphs/RatecodeANOVA.PNG" align=center>
+
 
 
 <img src="images/graphs/RatecodeID_TukeyResult.PNG" align=center>
