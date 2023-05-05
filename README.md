@@ -64,6 +64,33 @@ EXECUTE: present the finding of the analysis
 <img src="images/graphs/multilinearity_assump.png" width="800" height="300" align=center>
 
 
+<img src="images/graphs/OLS_result.PNG" width="800" height="300" align=center>
+
+
+<img src="images/graphs/predict_actual_regplot.png" width="800" height="300" align=center>
+
+
+<img src="images/graphs/resid_dist.png" width="800" height="300" align=center>
+
+
+<img src="images/graphs/homoscedasticity_assump.png" width="800" height="300" align=center>
+
+
+<img src="images/graphs/RatecodeANOVA.PNG" width="800" height="300" align=center>
+
+
+<img src="images/graphs/RatecodeID_TukeyResult.PNG" width="800" height="300" align=center>
+
+
+<img src="images/graphs/RatecodeID_TukeyResult.PNG" width="800" height="300" align=center>
+
+
+<img src="images/graphs/payment_type_ANOVA.PNG" width="800" height="300" align=center>
+
+
+<img src="images/graphs/payment_type_Tukey.PNG" width="800" height="300" align=center>
+
+
 ## V. Summary
 
 The conclusion is performed by taking into consideration of OLS model, T-test, ANOVA, and Tukey's HSD results from the above analysis.
