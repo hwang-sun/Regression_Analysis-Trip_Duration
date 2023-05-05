@@ -18,10 +18,18 @@ For data feature explaination, please access `Data/Data_documentation.xlsx`
 ## III. PACE Workflow for Analysis
 PLAN : conceptualize the scope of the project and develop the steps to guide through the process of completing the project
   - What is the main goal of this project?
+    
     *Perform regression analysis to determine what affects ride durations based on a variety of variables*
   - What is the project scope?
-  - What is stakeholders needs and requirements?
-  - Steps for solving the problem?
+    
+    *
+    + Determine what variables and how they affect trip duration
+    + Perform model in a Python notebook
+    + Draft an executive summary of results*
+
+  - Who are the stakeholders for this project?
+
+  - How could I break the problem into subtasks?
 
 ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
@@ -33,7 +41,8 @@ CONSTRUCT: build models to meet the project goal
   - Varaible selection
   - Select model approach
   - Build model
-  - Model and assumption Validation
+  - Assumption checking
+  - Evaluating model
 
 EXECUTE: present the finding of the analysis
   - Result summary
