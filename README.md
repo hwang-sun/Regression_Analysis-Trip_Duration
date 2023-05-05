@@ -51,7 +51,7 @@ EXECUTE: present the finding of the analysis
   - Present findings
   - Address feedback
 ## IV. Analysis Results
-### 1.Checking for Linearity assumption
+### 1. Checking for Linearity assumption
 
 identify correlation between independent variables and dependent vairiable
 
@@ -65,7 +65,7 @@ Based on the correlation matrix, independent variables meet the linearity assump
 - `tip_amount`
 - `tolls_amount`
 
-### 2.Checking for multicollinearity assumption
+### 2. Checking for multicollinearity assumption
 
 Relationship between continuous variables:
 
