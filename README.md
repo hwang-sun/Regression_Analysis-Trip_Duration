@@ -127,8 +127,7 @@ Other assumptions will be validated after the model is built:
 <img src="images/graphs/predict_actual_regplot.png" width="800" height="500" align=center>
 
 - R-squred = 0.83 is considerably high, which indicates that the model explains for about 83% of the variations of dependent variable, `trip_duration`
-- RMSE and MAE are relatively low, which are acceptable levels of error.
-
+- RMSE (3.790) and MAE (2.398) are relatively low, which are acceptable levels of error.
 
 **Question**: *What are the model coefficients?*
 - $\beta_0 = 3.7297$
