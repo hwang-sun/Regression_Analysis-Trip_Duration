@@ -55,13 +55,13 @@ EXECUTE: present the finding of the analysis
 <img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
 
 
-<img src="images/graphs/group_dist_violin.png" width="800" height="600" align=center>
+<img src="images/graphs/group_dist_violin.png" width="800" height="500" align=center>
 
 
-<img src="images/graphs/group_mean_bar.png" width="800" height="600" align=center>
+<img src="images/graphs/group_mean_bar.png" width="800" height="500" align=center>
 
 
-<img src="images/graphs/multilinearity_assump.png" width="800" height="400" align=center>
+<img src="images/graphs/multilinearity_assump.png" width="800" height="300" align=center>
 
 
 ## V. Summary
