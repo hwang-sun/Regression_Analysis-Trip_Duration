@@ -29,7 +29,7 @@ PLAN : conceptualize the scope of the project and develop the steps to guide thr
   - Who are the stakeholders for this project?
 
   - How could I break the problem into subtasks?
-    <img src="images/pace/subtasks.png" width="100" height="100" align=center>
+    <img src="images/pace/subtasks.png" align=left>
 
 ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
