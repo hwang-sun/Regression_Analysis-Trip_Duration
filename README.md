@@ -57,13 +57,24 @@ identify correlation between independent variables and dependent vairiable
 
 <img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
 
-Based on the correlation matrix, independent variables meet the linearity assumption (correlation with trip duration >= 0.4) are:
+Based on the correlation matrix, independent continuous variables meet the linearity assumption (correlation with trip duration >= 0.4) are:
 
 - `total_amount` (highest correlation score: 0.9)
 - `trip_distance`
 - `fare_amount`
 - `tip_amount`
 - `tolls_amount`
+
+For categorical variables, I create violin plot to spot each group distribution based on `trip_duration`. In addtion to more clarify, I perform aggregrating average value of ride duration based on groups in each categorycal features:
+
+<img src="images/graphs/group_dist_violin.png" width="800" height="500" align=center>
+
+<img src="images/graphs/group_mean_bar.png" width="800" height="500" align=center>
+
+Based on groups' distribution and average `trip_duration` values in each categorical variables, the relationship between `store_and_fwd_flag`, `extra`, `passenger_count` and `trip_duration` is weak and not substantial. 
+
+Some possible impactful variables could be included in the model based on the above analysis are: `mta_tax`, `RatecodeID`, `payment_type`
+
 
 ### 2. Checking for multicollinearity assumption
 
@@ -85,10 +96,6 @@ Continuous variables are selected for multi linear model are:
 - `tip_amount`
 - `tolls_amount`
 
-<img src="images/graphs/group_dist_violin.png" width="800" height="500" align=center>
-
-
-<img src="images/graphs/group_mean_bar.png" width="800" height="500" align=center>
 
 
 <img src="images/graphs/OLS_result.PNG" align=center>
