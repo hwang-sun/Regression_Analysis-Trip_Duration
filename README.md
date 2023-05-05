@@ -67,13 +67,13 @@ EXECUTE: present the finding of the analysis
 <img src="images/graphs/OLS_result.PNG" align=center>
 
 
-<img src="images/graphs/predict_actual_regplot.png" width="800" height="500" align=center>
+<img src="images/graphs/predict_actual_regplot.png" width="800" height="600" align=center>
 
 
 <img src="images/graphs/resid_dist.png" width="800" height="400" align=center>
 
 
-<img src="images/graphs/homoscedasticity_assump.png" width="800" height="500" align=center>
+<img src="images/graphs/homoscedasticity_assump.png" width="800" height="600" align=center>
 
 
 <img src="images/graphs/RatecodeANOVA.PNG" align=center>
