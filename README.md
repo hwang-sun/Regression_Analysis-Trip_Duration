@@ -163,7 +163,6 @@ Since residuals fitted in normal distribution, the normality assumtion is met
 - **Independent Observations** : this assumption requires understanding of data sources and data collecting process. By default, there's not reason to beleive each trip (observation) in the data set is dependent to each other.
 
 - **Homoscedasticity** : As being presented on the scatter plot between predicted values and residuals, the variance of error is nearly constant across fitted values.
-<img src="images/graphs/RatecodeANOVA.PNG" align=center>
 
 ### 7. ANOVA Analysis
 
@@ -187,6 +186,8 @@ There is no difference in trip duration based on different RatecodeID
 - $H_a$: Not $\mu_{(1)} = \mu_{(2)} = \mu_{(3)} = \mu_{(4)} = \mu_{(5)} = \mu_{(6)}$
 
 There is a difference in trip duration based on different RatecodeID
+
+<img src="images/graphs/RatecodeANOVA.PNG" align=center>
 
 - PR(>F) = 0.0 indicates the P-value is smaller than 0.000000 which is less than 0.05. As the result, I reject $H_0$ and state that there is a significant difference in trip duration based on different RatecodeID.
 
