@@ -32,6 +32,7 @@ PLAN : conceptualize the scope of the project and develop the steps to guide thr
     
     <img src="images/pace/subtasks.PNG" align=left>
 
+
 ANALYZE: collect, prepare, and analyze all of the data
   - Exploratory Data Analysis
   - Data cleaning
