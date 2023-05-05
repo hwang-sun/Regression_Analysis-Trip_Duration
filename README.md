@@ -130,11 +130,6 @@ Continuous variables are selected for multi linear model are:
 - The 95% confidence intervals for each coefficient should be included when presenting results to stakeholders. For instance, there's 95% chance the interval $[2.110,  5.349]$ contains the true parameter of the model intercept.
 
 
-**Question**: *How would you write the relationship between `trip_duration` and the independent variables as a linear equation?*
-
-$TripDuration = 3.7297 - 6.4113*X_{(MTAtax = TRUE)} - 6.8402*X_{(RateCodeID = 3)} - 4.1409*X_{(RateCodeID = 4)} - 17.6047*X_{(RateCodeID = 5)} - 0.2235*X_{(PaymentType = 3)} + 1.4647*X_{(PaymentType = 4)} + 1.1839*X_{(TotalAmount)} - 0.5553*X_{(TipAmount)} - 0.1974*X_{(TollsAmount)}$
-
-
 <img src="images/graphs/resid_dist.png" width="800" height="400" align=center>
 
 
