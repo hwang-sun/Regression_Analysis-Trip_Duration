@@ -105,9 +105,10 @@ Continuous variables are selected for multi linear model are:
 
 - R-squred = 0.83 is considerably high, which indicates that the model explains for about 83% of the variations of dependent variable, `trip_duration`
 - RMSE and MAE are relatively low, which are acceptable levels of error.
----
+
+
 **Question**: *What are the model coefficients?*
-- $ \beta_0 = 3.7297 $
+- $\beta_0 = 3.7297$
 - $ \beta_{(MTA-Tax = TRUE)} = -6.4113 $
 - $ \beta_{(RateCodeID = 2)} = 0.2948 $
 - $ \beta_{(RateCodeID = 3)} = -6.8402 $
