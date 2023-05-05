@@ -67,6 +67,7 @@ Based on the correlation matrix, independent continuous variables meet the linea
 
 For categorical variables, I create violin plot to spot each group distribution based on `trip_duration`. In addtion to more clarify, I perform aggregrating average value of ride duration based on groups in each categorycal features:
 
+<img src="images/graphs/group_dist_violin.png" width="800" height="500" align=center>
 
 <img src="images/graphs/group_mean_bar.png" width="800" height="500" align=center>
 
