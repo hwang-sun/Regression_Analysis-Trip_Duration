@@ -51,7 +51,9 @@ EXECUTE: present the finding of the analysis
   - Present findings
   - Address feedback
 ## IV. Analysis Results
-### Identify correlation between independent variables and dependent vairiable
+### Checking for Linearity assumption
+
+identify correlation between independent variables and dependent vairiable
 
 <img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
 
@@ -63,13 +65,30 @@ Based on the correlation matrix, independent variables meet the linearity assump
 - `tip_amount`
 - `tolls_amount`
 
+### Checking for multicollinearity assumption
+
+Relationship between continuous variables:
+
+<img src="images/graphs/multilinearity_assump.png" width="800" height="300" align=center>
+
+- It's clear that `fare_amount`, `trip_distance` have a strong relationship with `total_amount`, thus `trip_distance` and `fare_amount` can not be included in the model if `total_amount` is selected.
+
+- While `tip_amount` have a moderate relationship with `total_amount`, that of `tolls_amount` is weak and unclear. Hypothesis testing would need to be conducted to further confirm `tolls_amount` and `total_amount` relationships are statistically significant and populationally presentative.
+
+Based on above analysis, variables violate no-multicollinearity assumption (no two independent variables can be highly correlated with each other) are:
+
+-  `trip_distance` have strong relationship with `total_amount` (correlation score = 0.92)
+
+Continuous variables are selected for multi linear model are:
+
+- `total_amount`
+- `tip_amount`
+- `tolls_amount`
+
 <img src="images/graphs/group_dist_violin.png" width="800" height="500" align=center>
 
 
 <img src="images/graphs/group_mean_bar.png" width="800" height="500" align=center>
-
-
-<img src="images/graphs/multilinearity_assump.png" width="800" height="300" align=center>
 
 
 <img src="images/graphs/OLS_result.PNG" align=center>
