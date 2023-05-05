@@ -22,9 +22,9 @@ PLAN : conceptualize the scope of the project and develop the steps to guide thr
     *Perform regression analysis to determine what affects ride durations based on a variety of variables*
   - What is the project scope?
     
-  * + Determine what variables and how they affect trip duration
-    + Perform model in a Python notebook
-    + Draft an executive summary of results*
+    + *Determine what variables and how they affect trip duration*
+    + *Perform model in a Python notebook*
+    + *Draft an executive summary of results*
 
   - Who are the stakeholders for this project?
 
