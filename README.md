@@ -52,16 +52,16 @@ EXECUTE: present the finding of the analysis
   - Address feedback
 ## IV. Analysis Results
 
-<img src="images/graphs/corr_matrix.png" align=center>
+<img src="images/graphs/corr_matrix.png" width="500" height="500" align=center>
 
+saddfasdf
+<img src="images/graphs/group_dist_violin" width="500" height="500" align=center>
 
-<img src="images/pace/group_dist_violin" align=center>
+asdfasdf
+<img src="images/graphs/group_mean_bar" width="500" height="500" align=center>
 
-
-<img src="images/pace/group_mean_bar" align=center>
-
-
-<img src="images/pace/group_mean_bar" align=center>
+asdfsaf
+<img src="images/graphs/group_mean_bar" width="500" height="500" align=center>
 
 
 ## V. Summary
