@@ -51,7 +51,7 @@ EXECUTE: present the finding of the analysis
   - Present findings
   - Address feedback
 ## IV. Analysis Results
-#### Identify correlation between independent variables and dependent vairiable
+### Identify correlation between independent variables and dependent vairiable
 
 <img src="images/graphs/corr_matrix.png" width="800" height="600" align=center>
 
