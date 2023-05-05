@@ -109,22 +109,22 @@ Continuous variables are selected for multi linear model are:
 
 **Question**: *What are the model coefficients?*
 - $\beta_0 = 3.7297$
-- $ \beta_{(MTA-Tax = TRUE)} = -6.4113 $
-- $ \beta_{(RateCodeID = 2)} = 0.2948 $
-- $ \beta_{(RateCodeID = 3)} = -6.8402 $
-- $ \beta_{(RateCodeID = 4)} = -4.1409 $
-- $ \beta_{(RateCodeID = 5)} = -17.6047 $
-- $ \beta_{(PaymentType = 2)} = 1.0863 $
-- $ \beta_{(PaymentType = 3)} = -0.2235 $
-- $ \beta_{(PaymentType = 4)} = 1.4647 $
-- $ \beta_{(TotalAmount)} = 1.1839 $
-- $ \beta_{(TipAmount)} = -0.5553 $
-- $ \beta_{(TollsAmount)} = -0.1974 $
+- $\beta_{(MTA-Tax = TRUE)} = -6.4113$
+- $\beta_{(RateCodeID = 2)} = 0.2948$
+- $\beta_{(RateCodeID = 3)} = -6.8402$
+- $\beta_{(RateCodeID = 4)} = -4.1409$
+- $\beta_{(RateCodeID = 5)} = -17.6047$
+- $\beta_{(PaymentType = 2)} = 1.0863$
+- $\beta_{(PaymentType = 3)} = -0.2235$
+- $\beta_{(PaymentType = 4)} = 1.4647$
+- $\beta_{(TotalAmount)} = 1.1839$
+- $\beta_{(TipAmount)} = -0.5553$
+- $\beta_{(TollsAmount)} = -0.1974$
 
 
 **Question**: *What is your intepretation of the coefficient estimates? Are the coefficients statistically significant?*
 
-- The P-value for all coefficients is less than 0.05, except for $ \beta_{(RateCodeID = 2)} = 0.2948 $ and $ \beta_{(PaymentType = 3)} = -0.2235 $. Those coefficients with P-value < 0.05 is statistically significant. 
+- The P-value for all coefficients is less than 0.05, except for $\beta_{(RateCodeID = 2)} = 0.2948$ and $\beta_{(PaymentType = 3)} = -0.2235$. Those coefficients with P-value < 0.05 is statistically significant. 
 
 
 - The 95% confidence intervals for each coefficient should be included when presenting results to stakeholders. For instance, there's 95% chance the interval $[2.110,  5.349]$ contains the true parameter of the model intercept.
@@ -132,7 +132,7 @@ Continuous variables are selected for multi linear model are:
 
 **Question**: *How would you write the relationship between `trip_duration` and the independent variables as a linear equation?*
 
-$ TripDuration = 3.7297 - 6.4113*X_{(MTAtax = TRUE)} - 6.8402*X_{(RateCodeID = 3)} - 4.1409*X_{(RateCodeID = 4)} - 17.6047*X_{(RateCodeID = 5)} - 0.2235*X_{(PaymentType = 3)} + 1.4647*X_{(PaymentType = 4)} + 1.1839*X_{(TotalAmount)} - 0.5553*X_{(TipAmount)} - 0.1974*X_{(TollsAmount)} $
+$TripDuration = 3.7297 - 6.4113*X_{(MTAtax = TRUE)} - 6.8402*X_{(RateCodeID = 3)} - 4.1409*X_{(RateCodeID = 4)} - 17.6047*X_{(RateCodeID = 5)} - 0.2235*X_{(PaymentType = 3)} + 1.4647*X_{(PaymentType = 4)} + 1.1839*X_{(TotalAmount)} - 0.5553*X_{(TipAmount)} - 0.1974*X_{(TollsAmount)}$
 
 
 <img src="images/graphs/resid_dist.png" width="800" height="400" align=center>
