@@ -64,7 +64,7 @@ EXECUTE: present the finding of the analysis
 <img src="images/graphs/multilinearity_assump.png" width="800" height="300" align=center>
 
 
-<img src="images/graphs/OLS_result.PNG" width="800" height="300" align=center>
+<img src="images/graphs/OLS_result.PNG" align=center>
 
 
 <img src="images/graphs/predict_actual_regplot.png" width="800" height="300" align=center>
@@ -76,19 +76,19 @@ EXECUTE: present the finding of the analysis
 <img src="images/graphs/homoscedasticity_assump.png" width="800" height="300" align=center>
 
 
-<img src="images/graphs/RatecodeANOVA.PNG" width="800" height="300" align=center>
+<img src="images/graphs/RatecodeANOVA.PNG" align=center>
 
 
-<img src="images/graphs/RatecodeID_TukeyResult.PNG" width="800" height="300" align=center>
+<img src="images/graphs/RatecodeID_TukeyResult.PNG" align=center>
 
 
-<img src="images/graphs/RatecodeID_TukeyResult.PNG" width="800" height="300" align=center>
+<img src="images/graphs/RatecodeID_TukeyResult.PNG" align=center>
 
 
-<img src="images/graphs/payment_type_ANOVA.PNG" width="800" height="300" align=center>
+<img src="images/graphs/payment_type_ANOVA.PNG" align=center>
 
 
-<img src="images/graphs/payment_type_Tukey.PNG" width="800" height="300" align=center>
+<img src="images/graphs/payment_type_Tukey.PNG" align=center>
 
 
 ## V. Summary
