@@ -62,7 +62,7 @@ EXECUTE: present the finding of the analysis
   - Present findings
   - Address feedback
 ## IV. Analysis Results
-A regression analysis is basically a series of hypothesis tests, where we want to know if X is really correlated with Y or not based on a relationship parameter ($\beta$). So we do a hypothesis test on the regression results.
+A regression analysis is basically a series of hypothesis tests, where we want to know if X is really correlated with Y or not based on a relationship parameter $(\beta)$. So we do a hypothesis test on the regression results.
 
 - H₀ (null hypothesis): $\beta_1 = 0$
 - H₁ (alternative hypothesis): $\beta_1 \not= 0$
