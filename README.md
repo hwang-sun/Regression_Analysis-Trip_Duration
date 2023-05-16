@@ -74,6 +74,8 @@ For a linear regression model to be valid, there're 4 assumptions need being met
 3. *Indepentdent Observations* : Each observation in the dataset is independent.
 4. Homoscedasticity : the variance of the error is constant or similar across the model.
 
+Whereas Linearity and Independent Observations can be validated before the modeling step, Normality and Homoscedasticity require model residuals, which are only available after the model has been constructed.
+ 
 ### 1. Checking for Linearity assumption
 
 identify correlation between independent variables and dependent vairiable
