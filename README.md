@@ -281,3 +281,7 @@ Similar to `total_amount`, the relationship of `trip_duration` and `tip_amount` 
 
 
 The OLS model suggests that the `tolls_amount` coefficient is statistically significant with $P-value =  0.000$. if we compare two trips which have the same characteristics, except one trip's tolls amount is 1 dollar greater, we would expect the trip with the greater tolls amount to have 0.1974 minute less duration than the trip with the less tolls amount. 95% confidence interval of the coefficient is $[-0.244, -0.150]$
+
+---
+
+The analysis can be improved by taking into consideration time of day vairable (by transforming date feature in the data set) which can provide more insights about how trip duration varied across different time in a day. With that information, the company can develop price strategies based on that infomation which will improve revenue generation and enhances customer satisfaction by aligning prices with the perceived value of the service.
