@@ -62,6 +62,18 @@ EXECUTE: present the finding of the analysis
   - Present findings
   - Address feedback
 ## IV. Analysis Results
+A regression analysis is basically a series of hypothesis tests, where we want to know if X is really correlated with Y or not based on a relationship parameter ($\beta$). So we do a hypothesis test on the regression results.
+
+- H₀ (null hypothesis): $\beta_1 = 0$
+- H₁ (alternative hypothesis): $\beta_1 \not= 0$
+
+For a linear regression model to be valid, there're 4 assumptions need being met:
+
+1. *Linearity* : Each predictor (Xi) is linearly related to the outcome variable (Y)
+2. *Normality* : the errors/residuals ($y-\hat{y}$) are normally distributed
+3. *Indepentdent Observations* : Each observation in the dataset is independent.
+4. Homoscedasticity : the variance of the error is constant or similar across the model.
+
 ### 1. Checking for Linearity assumption
 
 identify correlation between independent variables and dependent vairiable
