@@ -4,12 +4,12 @@
 For detailed analysis : `Trip_Duration_Regression_Analysis.ipynb`
 
 ---
-## I. Problem Context
+# I. Problem Context
 Automatidata works with its clients to transform their unused and stored data into useful solutions, such as performance dashboards, customer-facing tools, strategic business insights, and more. They specialize in identifying a client’s business needs and utilizing their data to meet those business needs.
 
 The data consulting firm Automatidata's newest client, the NYC Taxi and Limousine Commission (New York City TLC) is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The client wants the Automatidata team to discover the relationship between variety of variables and ride durations to help understand its pricing and fleet viability.
 
-## II. Data Introduction
+# II. Data Introduction
 
 https://data.cityofnewyork.us/Transportation/2017-Yellow-Taxi-Trip-Data/biws-g3hs
 
@@ -18,7 +18,7 @@ This project uses a dataset called "2017_Yellow_Taxi_Trip_Data.csv". It contains
 The dataset contains 408,294 rows – each row represents a different trip
 For data feature explaination, please access `Data/Data_documentation.xlsx`
 
-## III. PACE Workflow for Analysis
+# III. PACE Workflow for Analysis
 PLAN : conceptualize the scope of the project and develop the steps to guide through the process of completing the project
   - What is the main goal of this project?
     
@@ -61,7 +61,7 @@ EXECUTE: present the finding of the analysis
   - Result summary
   - Present findings
   - Address feedback
-## IV. Analysis Results
+# IV. Analysis Results
 A regression analysis is basically a series of hypothesis tests, where we want to know if X is really correlated with Y or not based on a relationship parameter $(\beta)$. So we do a hypothesis test on the regression results.
 
 - H₀ (null hypothesis): $\beta_1 = 0$
@@ -76,7 +76,7 @@ For a linear regression model to be valid, there're 4 assumptions need being met
 
 Whereas Linearity and Independent Observations can be validated before the modeling step, Normality and Homoscedasticity require model residuals, which are only available after the model has been constructed.
  
-### 1. Checking for Linearity assumption
+## 1. Checking for Linearity assumption
 
 identify correlation between independent variables and dependent vairiable
 
@@ -101,7 +101,7 @@ Based on groups' distribution and average `trip_duration` values in each categor
 Some possible impactful variables could be included in the model based on the above analysis are: `mta_tax`, `RatecodeID`, `payment_type`
 
 
-### 2. Checking for multicollinearity assumption
+## 2. Checking for multicollinearity assumption
 
 Relationship between continuous variables:
 
@@ -121,7 +121,7 @@ Continuous variables are selected for multi linear model are:
 - `tip_amount`
 - `tolls_amount`
 
-### 3. Bulding Linear Regression Model using OLS Method
+## 3. Bulding Linear Regression Model using OLS Method
 
 **What variables were selected and why?**
 
@@ -174,11 +174,11 @@ Other assumptions will be validated after the model is built:
 
 Since residuals fitted in normal distribution, the normality assumtion is met
 
-### 5. Checking for Homoscedasticity assumption
+## 5. Checking for Homoscedasticity assumption
 
 <img src="images/graphs/homoscedasticity_assump.png" width="800" height="500" align=center>
 
-### 6. Assumption Conclusion
+## 6. Assumption Conclusion
 
 - **Linearity** : independent vairables selected for linear model is carefully accessed by correlated score and graphs which assures the predictors have good relationship with outcome variable.
 
@@ -188,7 +188,7 @@ Since residuals fitted in normal distribution, the normality assumtion is met
 
 - **Homoscedasticity** : As being presented on the scatter plot between predicted values and residuals, the variance of error is nearly constant across fitted values.
 
-### 7. ANOVA Analysis
+## 7. ANOVA Analysis
 
 Based on the OLS model summary, the 3 categorical variables `mta_tax`, `RatecodeID`, `payment_type` have $\beta$ coefficients with $P-value < 0.05$ which indicates the relationship of these variables with the outcome vairable `trip_duration` is statistically significant. But it can't be sure if there is a significant difference between the various groups in each categorical predictor. This is where ANOVA analysis comes in useful to explore further.
 
