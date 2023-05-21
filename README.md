@@ -239,7 +239,7 @@ There is a difference in trip duration based on different payment types
 
 ## V. Summary
 
-The conclusion is performed by taking into consideration of OLS model, T-test, ANOVA, and Tukey's HSD results from the above analysis.
+The conclusion is performed by taking into consideration the results of OLS model, T-test, ANOVA, and Tukey's HSD from the above analysis.
 
 
 ---
