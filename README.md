@@ -9,7 +9,7 @@ Automatidata works with its clients to transform their unused and stored data in
 
 The data consulting firm Automatidata's newest client, the NYC Taxi and Limousine Commission (New York City TLC) is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. 
 
-When a consumer of the New York City TLC places an taxi travel, the app show the expected time of delivery. It is very important for the company to get this right, as it has a big impact on consumer experience. In this exercise, I will discover the relationship between variety of variables and ride durations and build a model to predict the estimated time taken for a travel.
+When a consumer of the New York City TLC places an taxi travel, the app show the expected time of traveling. It is very important for the company to get this right, as it has a big impact on consumer experience. In this exercise, I will discover the relationship between variety of variables and ride durations and build a model to predict the estimated time taken for a travel.
 
 # II. Data Introduction
 
